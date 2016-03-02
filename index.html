@@ -7,6 +7,7 @@
 	<script src="js/sugar.min.js"></script>
 	<script src="js/weather.min.js"></script>
 	<script>
+		$(document).ready(function() {
 		// DAY ONE
 		$.ajax({
 	      url: 'http://api.openweathermap.org/data/2.5/forecast/daily',
@@ -42,6 +43,7 @@
 	        });
 	      },
 	    });
+		});
 
 		//DAY FOUR
 		$.ajax({
